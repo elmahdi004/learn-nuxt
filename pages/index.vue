@@ -3,6 +3,11 @@
         This is the main page lets discover now 
     </div>
     <default-button/>
+    <default-button/>
+    <default-button/>
+    <default-button/>
+    <default-button/>
+    <default-button/>
 </template>
 <script>
 
