@@ -22,6 +22,9 @@
 </template>
 <script></script>
 <style>
+.router-link-active {
+  color: black; /* Change this to your desired active color */
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +32,7 @@
 }
 a{
     text-decoration: none;
+    color: white;
 }
 nav {
   background-color: red;
