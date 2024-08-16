@@ -10,7 +10,15 @@
         <nuxt-link to="/profile/amin">amin</nuxt-link><br>
     </div>
 </template>
-<script>
+<script setup>
+useHead({
+    meta:[
+        {
+            name:"description",
+            content:"this is profile description"
+        }
+    ]
+});
 
 </script>
 <style lang="">
