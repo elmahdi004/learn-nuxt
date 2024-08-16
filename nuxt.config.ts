@@ -4,12 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app:{
     head:{
-      meta:[
-        {
-          name:"description",
-          content:"this is our description how we can help u"
-        }
-      ]
+      
     }
   }
 })

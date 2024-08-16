@@ -14,6 +14,9 @@
             <li>
                 <nuxt-link to="/">Main</nuxt-link>
             </li>
+            <li>
+                <nuxt-link :to="{name:'products'}">Products</nuxt-link>
+            </li>
         </ul>
     </nav>
     <slot />
