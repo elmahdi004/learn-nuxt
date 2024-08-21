@@ -9,6 +9,17 @@
 </template>
 <script setup>
 const {data,error} =  useFetch('https://dummyjson.com/products');
+definePageMeta({
+    middleware:[
+        (to,from)=>{
+            console.log('TO',to);
+            console.log('FROM',from);
+            if(from.name == 'index'){
+                navigateTo('/');
+            }
+        }
+    ],
+});
 </script>
 <style scoped>
     
