@@ -1,10 +1,68 @@
 <template lang="">
-<div v-if="data">
-    <div v-for="ele in data">
-        {{
-            ele[0]
-        }}
-    </div>
+<div>
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products
+    This is our products elmanhdi
+    This is our products elmanhdi
+    This is our products elmanhdi
+    This is our products elmanhdi
+    This is our products elmanhdi
 </div>
 </template>
 <script setup>
@@ -12,9 +70,12 @@ const {data,error} =  useFetch('https://dummyjson.com/products');
 definePageMeta({
     middleware:[
         (to,from)=>{
+
             if(from.name == 'index'){
-                navigateTo('/');
+                return navigateTo('/elmahdi');
+                // return console.log('Yes i come from index page /');
             }
+            return console.log('No I Come from other page')
         }
     ],
 });
