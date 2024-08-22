@@ -1,5 +1,5 @@
 export default defineNuxtRouteMiddleware((to,from)=>{
-if('elmahdi' == 'elmahdi'){
+if(to.name != 'index'){
 return navigateTo('/');
 }
 });
