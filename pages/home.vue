@@ -6,3 +6,8 @@
         This is the Home Page
     </h3>
 </template>
+<script setup>
+definePageMeta({
+    middleware : 'auth'
+});
+</script>
